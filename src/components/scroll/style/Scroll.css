@@ -4,6 +4,10 @@
     padding: 40px;
 }
 
+.invisible_text{
+    color: aliceblue;
+}
+
 @media only screen and (max-width: 600px){
     .scroll{
         text-align: center;
