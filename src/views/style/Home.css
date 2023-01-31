@@ -1,0 +1,65 @@
+.home_page{
+    background-color: aliceblue;
+    margin: 10px;
+    height: 100vh;
+}
+
+.menu_logo{
+    position: sticky;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.logo{
+    color: black;
+    text-decoration: none;
+}
+
+.title{
+    width: auto;
+    height: 300px;
+    text-align: start;
+    display: block;
+    margin: 40px;
+    padding-top: 30px;
+    background-color: antiquewhite;
+    display: flex;
+}
+.info{
+    padding-top: 50px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+
+.about_my_approach{
+    margin-top: 60px;
+    padding: 40px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .menu_logo{
+        margin-top: 20px;
+    }
+    .title{
+        margin-top: 10px;
+        background-color: orange;
+    }
+    h1{
+        margin-top: 200px;
+        font-size: 40px;
+    }
+    h3{
+        font-size: 18px;
+    }
+
+    .about_my_approach{
+        margin-top: 30px;
+    }
+
+}
