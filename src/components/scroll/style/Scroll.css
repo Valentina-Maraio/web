@@ -1,0 +1,13 @@
+.scroll{
+    text-align: center;
+    margin-top: 100px;
+    padding: 40px;
+}
+
+@media only screen and (max-width: 600px){
+    .scroll{
+        text-align: center;
+        margin-top: 170px;
+        padding: 40px;
+    }
+}
